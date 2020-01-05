@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <a href="index.html"></a><img src="Gambar/logooo.png" alt="logo" class="logo"></a>
+    <ul class=menu>
+       <li> <a href="index.html">HOME</a>
+         </li>
+       <li><a href="galeri.html">GALERY</a>
+          </li>
+       <li><a href="kontak.html">DAFTAR</a> 
+         </li>
+       <li><a href="about.html">DATA MAHASISWA</a>
+         </li>
+   </ul>
+  </header>
+<body  style="background-color:#064e18">
+    <div class="form")
+    <hr width=50%>
+    <center><h1>UNVERSITAS ISLAM RIAU</h1></center><hr width=50%>
+    <center><h2><i>Pendaftaran Mahasiswa Baru<i></h2></center><hr width=50%>
+    <form name="index" method="GET" action="form.php">
+    <table border=0 align="center">
+    <tr>
+        <td><label for="nama">Nama Lengkap</label></td>
+        <td>:</td>
+        <td><input type="text" name="nama" maxlength=45></td>
+    </tr>
+    <tr>
+        <td><label for="jenis_kelamin">Jenis Kelamin</label></td>
+        <td>:</td>
+        <td><select name="jenis_kelamin" size=1>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+            </select><td>
+    </tr>
+    <tr>
+        <td><label for="tempat_lahir">Tempat Lahir</label></td>
+        <td>:</td>
+        <td><input type="text" name="tempat_lahir"><br></td>
+    </tr>
+    <tr>
+        <td><label for="tangga_lahir">Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date" name="tanggal_lahir"><br></td> 
+    </tr>
+    <tr>
+        <td><label for="agama">Agama</label></td>
+        <td>:</td>
+        <td><select name="agama" size=1>
+        <option value="islam">Islam</option>
+        <option value="kristen">Kristen</option>
+        <option value="hindu">Hindu</option>
+        <option value="budha">Budha</option>
+        </select><td>
+    </tr>
+    <tr>
+        <td><label for="fakultas">Fakultas</label></td>
+        <td>:</td>
+        <td><select name="fakultas" size=1>
+        <option value="fisipol"><i>Fakultas Ilmu Sosial dan Ilmu Politik</i></option>
+        <option value="fai">Fakultas Agama Islam</option>
+        <option value="teknik">Fakultas Teknik</option>
+        <option value="hukum">Fakultas Hukum</option>
+        <option value="fkip">Fakultas Ilmu Keguruan dan Ilmu Pendidikan</option>
+        <option value="fekon">Fakultas Ekonomi</option>
+        <option value="faperta">Fakultas Pertanian</option>
+        <option value="fikom">Fakultas Ilmu Komunikasi</option>
+        <option value="psikolog">Fakultas Psikologi</option>
+        </select><td>
+    <tr>
+        <td><label for="jurusan">Jurusan</label></td>
+        <td>:</td>
+        <td><select name="jurusan" size=1>
+            <option value="ti">Teknik Informatika</option>
+            <option value="tg">Teknik Geologi</option>
+            <option value="tp">Teknik Perminyakan</option>
+            <option value="tpl">Teknik Planologi</option>
+            <option value="tm">Teknik Mesin</option>
+            <option value="ts">Teknik Sipil</option>
+            <option value="ekis">Ekonomi Syariah</option>
+            <option value="pai">Pendidikan Agama Islam</option>
+            <option value="piaud">PIAUD</option>
+            <option value="persya">Perbankan Syariah</option>
+            <option value="pba">Pendidikan Bahasa Arab</option>
+            <option value="agro">Agroteknologi</option>
+            <option value="ekopem">Ekonomi Pembangunan</option>
+            <option value="manaj">Manajemen</option>
+            <option value="akun">Akuntansi</option>
+            <option value="bhsing">Pendidikan Bahasa Inggris</option>
+            <option value="bhsin">Pendidikan Bahasa Indonesia</option>
+            <option value="penmat">Pendidikan Matematika</option>
+            <option value="bio">Pendidikan Biologi</option>
+            <option value="penjas">Pendidikan Jaskesrek</option>
+            <option value="pgsd">PGSD</option>
+            <option value="ilp">Ilmu Psikologi</option>
+            <option value="ilkom">Ilmu Komunikasi</option>
+            <option value="hi">Hubungan Internasional</option>
+            <option value="krim">Kriminologi</option>
+            <option value="ip">Ilmu Pemerintahan</option>
+            <option value="admbis">Administrasi Bisnis</option>
+            <option value="admp">Administrasi Publik</option>
+            <option value="pgsd">PGSD</option>
+            </select><td>
+    </tr>
+    <tr>
+        <td><label for="jenjang">Jenjang</label></td>
+        <td>:</td>
+        <td><select name="jenjang" size=1>
+        <option value="s1">S1</option>
+        <option value="d3">D3</option>
+        <option value="s2">S2</option>
+        </select><td>
+    </tr>
+    <tr>
+        <td>Asal</td>
+        <td>:</td>
+        <td><textarea name="alamat"></textarea></td>
+    </tr>
+    <tr>
+        <td><label for=number_phone">Number Phone</label></td>
+        <td>:</td>
+        <td><input type="text" name="number_phone" maxlength=12></td>
+    </tr>
+    <tr>
+        <td><label for="hobi">Hobi</label></td>
+        <td>:</td>
+        <td>
+        <input type="checkbox" name="hobi_baca"/> Membaca Buku
+        <input type="checkbox" name="hobi_nulis"/> Menulis
+        <input type="checkbox" name="hobi_olahraga"/> Olahraga
+        <input type="checkbox" name="other"/> Lainnya
+    </td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Daftar"></td>
+    </tr>
+    </table>
+    </form>
+    <hr width=50%>
+    <footer>
+        <h2>Follow Us </h2>
+        <a href="https://www.facebook.com/universitasislamriau" target="_blank"><img src="Gambar/fb.png" alt="fb"  class="fb"></a>
+        <a href="https://www.instagram.com/uirpekanbaru/" target="_blank"><img src="Gambar/ig.jpg" alt="instagram" class="ig"></a>
+        <a href="mailto:info@uir.ac.id" target="_blank"><img src="Gambar/email.jpg" alt="email" class="email"></a>
+        <a href="https://www.google.com/maps/place/Universitas+Islam+Riau/@0.4475419,101.4523983,21z/data=!4m5!3m4!1s0x31d5af5c42f125e5:0xe6f83f2deb032e8f!8m2!3d0.4474212!4d101.4525552"><img src="Gambar/maps.png" alt="maps" class="maps"></a>
+        <p><script>document.write();</script>Jl. Kaharuddin Nasution 113 Pekanbaru Riau Indonesia</p>
+      </footer>
+</div>
+</body>
+</html>
